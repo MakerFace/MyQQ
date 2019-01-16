@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/show_other"
+        android:icon="@drawable/add"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/create_chat"
+        android:icon="@drawable/chat_icon"
+        android:title="Backup"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/add_friend"
+        android:icon="@drawable/add_friend"
+        android:title="Add Friend"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/scan"
+        android:title="Scan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/file"
+        android:icon="@drawable/send_file"
+        android:title="Send File"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/b_code"
+        android:icon="@drawable/b_code"
+        android:title="Binary Code"
+        app:showAsAction="never" />
+
+</menu>

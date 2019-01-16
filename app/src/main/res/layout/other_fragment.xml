@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/phone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/video" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/send_file"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/send_file" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/draw" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/redpacket_red" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/money" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/gift" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/music" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/position" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/contact_blue" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/collect" />
+    </FrameLayout>
+</GridLayout>

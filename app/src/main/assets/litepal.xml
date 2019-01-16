@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="Users" />
+    <version value="2" />
+    <list>
+        <mapping class="com.example.uibestpractice.usersBean.User" />
+        <mapping class="com.example.uibestpractice.messages.Message" />
+    </list>
+</litepal>

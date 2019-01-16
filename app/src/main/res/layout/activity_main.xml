@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e0e8" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/msg_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Type something here"
+            android:maxLines="2" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/msg_voice_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/voice_gray"/>
+        <Button
+            android:id="@+id/msg_photo_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/photo_gray"/>
+        <Button
+            android:id="@+id/msg_camera_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/camera_gray"/>
+        <Button
+            android:id="@+id/msg_redpackage_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/redpacket_gray"/>
+        <Button
+            android:id="@+id/msg_smile_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/smile_gray"/>
+        <Button
+            android:id="@+id/msg_add_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/add_gray"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/msg_add_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+</LinearLayout>
